@@ -1,1 +1,3 @@
-# projs
+This program intends to simulate the working of an atm machine in which there are two ways to login.  First, as admin and second, as user. The admin can view all accounts, find them by name, by type, including the option to add and/or delete accounts. The user on the other hand, can login, check their balance, view their account’s info, apply for a loan, and edit their pin all while being able to withdraw, deposit and transfer money. Aside from this, when the user is low on money, the machine will prompt the user to get a loan. The machine also can distinguish two accounts with the same name but different pins. And finally, the machine can also tell if the account exists or not when logging in.
+
+Limitation: if two users were to have the same pin, then the all the handling of cash will be done for the account that is higher in position in the database file. We couldn’t bring about a solution for this.
